@@ -1,0 +1,4019 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="pokedex.css" />
+
+	<title>PokedeX3D</title>
+	
+	<script src="x3dom.js"></script>
+	
+	<script src="jquery-1.7.1.js"></script>
+	<script src="jquery.x3dom.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script src="swfobject.js"></script>
+	<script src="detect.js"></script>
+	
+	<script src="ui/jquery.ui.core.js"></script>
+	<script src="ui/jquery.ui.widget.js"></script>
+	
+	<script src="pokedex.js"></script>
+
+</head>
+<body>
+</style>
+</head>
+
+<body>
+	<div id="pokedex">
+		
+		<div id="pokeheader">
+			<img src="img/logo.png" />
+		
+		</div>
+		
+		<div id="pokecontener">
+			<div id="pokelist">
+				
+				<ul class="scroll-content">
+					<li id="num_001">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">001</span>
+						<span class="pokelist_pokename"><a href="#001">Bulbizarre</a></span>
+					</li>
+					
+					<li id="num_002">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">002</span>
+						<span class="pokelist_pokename"><a href="#002">Herbizarre</a></span>
+					</li>
+					
+					<li id="num_003">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">003</span>
+						<span class="pokelist_pokename"><a href="#003">Florizarre</a></span>
+					</li>
+					
+					<li id="num_004">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">004</span>
+						<span class="pokelist_pokename"><a href="#004">Salamèche</a></span>
+					</li>
+					
+					<li id="num_005">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">005</span>
+						<span class="pokelist_pokename"><a href="#005">Reptincel</a></span>
+					</li>
+					
+					<li id="num_006">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">006</span>
+						<span class="pokelist_pokename"><a href="#006">Dracaufeu</a></span>
+					</li>
+					
+					<li id="num_007">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">007</span>
+						<span class="pokelist_pokename"><a href="#007">Carapuce</a></span>
+					</li>
+					
+					<li id="num_008">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">008</span>
+						<span class="pokelist_pokename"><a href="#008">Carabaffe</a></span>
+					</li>
+					
+					<li id="num_009">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">009</span>
+						<span class="pokelist_pokename"><a href="#009">Tortank</a></span>
+					</li>
+					
+					<li id="num_010">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">010</span>
+						<span class="pokelist_pokename"><a href="#010">Chenipan</a></span>
+					</li>
+					
+					<li id="num_011">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">011</span>
+						<span class="pokelist_pokename"><a href="#011">Chrysacier</a></span>
+					</li>
+					
+					<li id="num_012">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">012</span>
+						<span class="pokelist_pokename"><a href="#012">Papilusion</a></span>
+					</li>
+					
+					<li id="num_013">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">013</span>
+						<span class="pokelist_pokename"><a href="#013">Aspicot</a></span>
+					</li>
+					
+					<li id="num_014">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">014</span>
+						<span class="pokelist_pokename"><a href="#014">Coconfort</a></span>
+					</li>
+					
+					<li id="num_015">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">015</span>
+						<span class="pokelist_pokename"><a href="#015">Dardargnan</a></span>
+					</li>
+					
+					<li id="num_016">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">016</span>
+						<span class="pokelist_pokename"><a href="#016">Roucool</a></span>
+					</li>
+					
+					<li id="num_017">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">017</span>
+						<span class="pokelist_pokename"><a href="#017">Roucoups</a></span>
+					</li>
+					
+					<li id="num_018">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">018</span>
+						<span class="pokelist_pokename"><a href="#018">Roucarnage</a></span>
+					</li>
+					
+					<li id="num_019">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">019</span>
+						<span class="pokelist_pokename"><a href="#019">Rattata</a></span>
+					</li>
+					
+					<li id="num_020">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">020</span>
+						<span class="pokelist_pokename"><a href="#020">Rattatac</a></span>
+					</li>
+					
+					<li id="num_021">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">021</span>
+						<span class="pokelist_pokename"><a href="#021">Piafabec</a></span>
+					</li>
+					
+					<li id="num_022">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">022</span>
+						<span class="pokelist_pokename"><a href="#022">Rapasdepic</a></span>
+					</li>
+					
+					<li id="num_023">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">023</span>
+						<span class="pokelist_pokename"><a href="#023">Abo</a></span>
+					</li>
+					
+					<li id="num_024">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">024</span>
+						<span class="pokelist_pokename"><a href="#024">Arbok</a></span>
+					</li>
+					
+					<li id="num_025">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">025</span>
+						<span class="pokelist_pokename"><a href="#025">Pikachu</a></span>
+					</li>
+					
+					<li id="num_026">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">026</span>
+						<span class="pokelist_pokename"><a href="#026">Raichu</a></span>
+					</li>
+					
+					<li id="num_027">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">027</span>
+						<span class="pokelist_pokename"><a href="#027">Sabelette</a></span>
+					</li>
+					
+					<li id="num_028">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">028</span>
+						<span class="pokelist_pokename"><a href="#028">Sablaireau</a></span>
+					</li>
+					
+					<li id="num_029">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">029</span>
+						<span class="pokelist_pokename"><a href="#029">Nidoran♀</a></span>
+					</li>
+					
+					<li id="num_030">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">030</span>
+						<span class="pokelist_pokename"><a href="#030">Nidorina</a></span>
+					</li>
+					
+					<li id="num_031">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">031</span>
+						<span class="pokelist_pokename"><a href="#031">Nidoqueen</a></span>
+					</li>
+					
+					<li id="num_032">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">032</span>
+						<span class="pokelist_pokename"><a href="#032">Nidoran♂</a></span>
+					</li>
+					
+					<li id="num_033">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">033</span>
+						<span class="pokelist_pokename"><a href="#033">Nidorino</a></span>
+					</li>
+					
+					<li id="num_034">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">034</span>
+						<span class="pokelist_pokename"><a href="#034">Nidoking</a></span>
+					</li>
+					
+					<li id="num_035">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">035</span>
+						<span class="pokelist_pokename"><a href="#035">Mélofée</a></span>
+					</li>
+					
+					<li id="num_036">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">036</span>
+						<span class="pokelist_pokename"><a href="#036">Mélodelfe</a></span>
+					</li>
+					
+					<li id="num_037">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">037</span>
+						<span class="pokelist_pokename"><a href="#037">Goupix</a></span>
+					</li>
+					
+					<li id="num_038">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">038</span>
+						<span class="pokelist_pokename"><a href="#038">Feunard</a></span>
+					</li>
+					
+					<li id="num_039">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">039</span>
+						<span class="pokelist_pokename"><a href="#039">Rondoudou</a></span>
+					</li>
+					
+					<li id="num_040">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">040</span>
+						<span class="pokelist_pokename"><a href="#040">Grodoudou</a></span>
+					</li>
+					
+					<li id="num_041">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">041</span>
+						<span class="pokelist_pokename"><a href="#041">Nosferapti</a></span>
+					</li>
+					
+					<li id="num_042">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">042</span>
+						<span class="pokelist_pokename"><a href="#042">Nosferalto</a></span>
+					</li>
+					
+					<li id="num_043">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">043</span>
+						<span class="pokelist_pokename"><a href="#043">Mystherbe</a></span>
+					</li>
+					
+					<li id="num_044">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">044</span>
+						<span class="pokelist_pokename"><a href="#044">Ortide</a></span>
+					</li>
+					
+					<li id="num_045">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">045</span>
+						<span class="pokelist_pokename"><a href="#045">Rafflesia</a></span>
+					</li>
+					
+					<li id="num_046">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">046</span>
+						<span class="pokelist_pokename"><a href="#046">Paras</a></span>
+					</li>
+					
+					<li id="num_047">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">047</span>
+						<span class="pokelist_pokename"><a href="#047">Parasect</a></span>
+					</li>
+					
+					<li id="num_048">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">048</span>
+						<span class="pokelist_pokename"><a href="#048">Mimitoss</a></span>
+					</li>
+					
+					<li id="num_049">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">049</span>
+						<span class="pokelist_pokename"><a href="#049">Aéromite</a></span>
+					</li>
+					
+					<li id="num_050">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">050</span>
+						<span class="pokelist_pokename"><a href="#050">Taupiqueur</a></span>
+					</li>
+					
+					<li id="num_051">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">051</span>
+						<span class="pokelist_pokename"><a href="#051">Triopikeur</a></span>
+					</li>
+					
+					<li id="num_052">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">052</span>
+						<span class="pokelist_pokename"><a href="#052">Miaouss</a></span>
+					</li>
+					
+					<li id="num_053">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">053</span>
+						<span class="pokelist_pokename"><a href="#053">Persian</a></span>
+					</li>
+					
+					<li id="num_054">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">054</span>
+						<span class="pokelist_pokename"><a href="#054">Psykokwak</a></span>
+					</li>
+					
+					<li id="num_055">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">055</span>
+						<span class="pokelist_pokename"><a href="#055">Akwakwak</a></span>
+					</li>
+					
+					<li id="num_056">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">056</span>
+						<span class="pokelist_pokename"><a href="#056">Férosinge</a></span>
+					</li>
+					
+					<li id="num_057">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">057</span>
+						<span class="pokelist_pokename"><a href="#057">Colossinge</a></span>
+					</li>
+					
+					<li id="num_058">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">058</span>
+						<span class="pokelist_pokename"><a href="#058">Caninos</a></span>
+					</li>
+					
+					<li id="num_059">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">059</span>
+						<span class="pokelist_pokename"><a href="#059">Arcanin</a></span>
+					</li>
+					
+					<li id="num_060">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">060</span>
+						<span class="pokelist_pokename"><a href="#060">Ptitard</a></span>
+					</li>
+					
+					<li id="num_061">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">061</span>
+						<span class="pokelist_pokename"><a href="#061">Têtarte</a></span>
+					</li>
+					
+					<li id="num_062">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">062</span>
+						<span class="pokelist_pokename"><a href="#062">Tartard</a></span>
+					</li>
+					
+					<li id="num_063">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">063</span>
+						<span class="pokelist_pokename"><a href="#063">Abra</a></span>
+					</li>
+					
+					<li id="num_064">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">064</span>
+						<span class="pokelist_pokename"><a href="#064">Kadabra</a></span>
+					</li>
+					
+					<li id="num_065">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">065</span>
+						<span class="pokelist_pokename"><a href="#065">Alakazam</a></span>
+					</li>
+					
+					<li id="num_066">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">066</span>
+						<span class="pokelist_pokename"><a href="#066">Machoc</a></span>
+					</li>
+					
+					<li id="num_067">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">067</span>
+						<span class="pokelist_pokename"><a href="#067">Machopeur</a></span>
+					</li>
+					
+					<li id="num_068">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">068</span>
+						<span class="pokelist_pokename"><a href="#068">Mackogneur</a></span>
+					</li>
+					
+					<li id="num_069">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">069</span>
+						<span class="pokelist_pokename"><a href="#069">Chétiflor</a></span>
+					</li>
+					
+					<li id="num_070">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">070</span>
+						<span class="pokelist_pokename"><a href="#070">Boustiflor</a></span>
+					</li>
+					
+					<li id="num_071">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">071</span>
+						<span class="pokelist_pokename"><a href="#071">Empiflor</a></span>
+					</li>
+					
+					<li id="num_072">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">072</span>
+						<span class="pokelist_pokename"><a href="#072">Tentacool</a></span>
+					</li>
+					
+					<li id="num_073">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">073</span>
+						<span class="pokelist_pokename"><a href="#073">Tentacruel</a></span>
+					</li>
+					
+					<li id="num_074">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">074</span>
+						<span class="pokelist_pokename"><a href="#074">Racaillou</a></span>
+					</li>
+					
+					<li id="num_075">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">075</span>
+						<span class="pokelist_pokename"><a href="#075">Gravalanch</a></span>
+					</li>
+					
+					<li id="num_076">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">076</span>
+						<span class="pokelist_pokename"><a href="#076">Grolem</a></span>
+					</li>
+					
+					<li id="num_077">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">077</span>
+						<span class="pokelist_pokename"><a href="#077">Ponyta</a></span>
+					</li>
+					
+					<li id="num_078">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">078</span>
+						<span class="pokelist_pokename"><a href="#078">Galopa</a></span>
+					</li>
+					
+					<li id="num_079">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">079</span>
+						<span class="pokelist_pokename"><a href="#079">Ramoloss</a></span>
+					</li>
+					
+					<li id="num_080">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">080</span>
+						<span class="pokelist_pokename"><a href="#080">Flagadoss</a></span>
+					</li>
+					
+					<li id="num_081">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">081</span>
+						<span class="pokelist_pokename"><a href="#081">Magnéti</a></span>
+					</li>
+					
+					<li id="num_082">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">082</span>
+						<span class="pokelist_pokename"><a href="#082">Magnéton</a></span>
+					</li>
+					
+					<li id="num_083">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">083</span>
+						<span class="pokelist_pokename"><a href="#083">Canarticho</a></span>
+					</li>
+					
+					<li id="num_084">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">084</span>
+						<span class="pokelist_pokename"><a href="#084">Doduo</a></span>
+					</li>
+					
+					<li id="num_085">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">085</span>
+						<span class="pokelist_pokename"><a href="#085">Dodrio</a></span>
+					</li>
+					
+					<li id="num_086">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">086</span>
+						<span class="pokelist_pokename"><a href="#086">Otaria</a></span>
+					</li>
+					
+					<li id="num_087">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">087</span>
+						<span class="pokelist_pokename"><a href="#087">Lamantine</a></span>
+					</li>
+					
+					<li id="num_088">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">088</span>
+						<span class="pokelist_pokename"><a href="#088">Tadmorv</a></span>
+					</li>
+					
+					<li id="num_089">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">089</span>
+						<span class="pokelist_pokename"><a href="#089">Grotadmorv</a></span>
+					</li>
+					
+					<li id="num_090">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">090</span>
+						<span class="pokelist_pokename"><a href="#090">Kokiyas</a></span>
+					</li>
+					
+					<li id="num_091">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">091</span>
+						<span class="pokelist_pokename"><a href="#091">Crustabri</a></span>
+					</li>
+					
+					<li id="num_092">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">092</span>
+						<span class="pokelist_pokename"><a href="#092">Fantominus</a></span>
+					</li>
+					
+					<li id="num_093">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">093</span>
+						<span class="pokelist_pokename"><a href="#093">Spectrum</a></span>
+					</li>
+					
+					<li id="num_094">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">094</span>
+						<span class="pokelist_pokename"><a href="#094">Ectoplasma</a></span>
+					</li>
+					
+					<li id="num_095">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">095</span>
+						<span class="pokelist_pokename"><a href="#095">Onix</a></span>
+					</li>
+					
+					<li id="num_096">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">096</span>
+						<span class="pokelist_pokename"><a href="#096">Soporifik</a></span>
+					</li>
+					
+					<li id="num_097">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">097</span>
+						<span class="pokelist_pokename"><a href="#097">Hypnomade</a></span>
+					</li>
+					
+					<li id="num_098">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">098</span>
+						<span class="pokelist_pokename"><a href="#098">Krabby</a></span>
+					</li>
+					
+					<li id="num_099">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">099</span>
+						<span class="pokelist_pokename"><a href="#099">Krabboss</a></span>
+					</li>
+					
+					<li id="num_100">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">100</span>
+						<span class="pokelist_pokename"><a href="#100">Voltorbe</a></span>
+					</li>
+					
+					<li id="num_101">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">101</span>
+						<span class="pokelist_pokename"><a href="#101">Électrode</a></span>
+					</li>
+					
+					<li id="num_102">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">102</span>
+						<span class="pokelist_pokename"><a href="#102">Noeunoeuf</a></span>
+					</li>
+					
+					<li id="num_103">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">103</span>
+						<span class="pokelist_pokename"><a href="#103">Noadkoko</a></span>
+					</li>
+					
+					<li id="num_104">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">104</span>
+						<span class="pokelist_pokename"><a href="#104">Osselait</a></span>
+					</li>
+					
+					<li id="num_105">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">105</span>
+						<span class="pokelist_pokename"><a href="#105">Ossatueur</a></span>
+					</li>
+					
+					<li id="num_106">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">106</span>
+						<span class="pokelist_pokename"><a href="#106">Kicklee</a></span>
+					</li>
+					
+					<li id="num_107">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">107</span>
+						<span class="pokelist_pokename"><a href="#107">Tygnon</a></span>
+					</li>
+					
+					<li id="num_108">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">108</span>
+						<span class="pokelist_pokename"><a href="#108">Excelangue</a></span>
+					</li>
+					
+					<li id="num_109">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">109</span>
+						<span class="pokelist_pokename"><a href="#109">Smogo</a></span>
+					</li>
+					
+					<li id="num_110">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">110</span>
+						<span class="pokelist_pokename"><a href="#110">Smogogo</a></span>
+					</li>
+					
+					<li id="num_111">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">111</span>
+						<span class="pokelist_pokename"><a href="#111">Rhinocorne</a></span>
+					</li>
+					
+					<li id="num_112">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">112</span>
+						<span class="pokelist_pokename"><a href="#112">Rhinoféros</a></span>
+					</li>
+					
+					<li id="num_113">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">113</span>
+						<span class="pokelist_pokename"><a href="#113">Leveinard</a></span>
+					</li>
+					
+					<li id="num_114">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">114</span>
+						<span class="pokelist_pokename"><a href="#114">Saquedeneu</a></span>
+					</li>
+					
+					<li id="num_115">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">115</span>
+						<span class="pokelist_pokename"><a href="#115">Kangourex</a></span>
+					</li>
+					
+					<li id="num_116">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">116</span>
+						<span class="pokelist_pokename"><a href="#116">Hypotrempe</a></span>
+					</li>
+					
+					<li id="num_117">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">117</span>
+						<span class="pokelist_pokename"><a href="#117">Hypocéan</a></span>
+					</li>
+					
+					<li id="num_118">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">118</span>
+						<span class="pokelist_pokename"><a href="#118">Poissirène</a></span>
+					</li>
+					
+					<li id="num_119">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">119</span>
+						<span class="pokelist_pokename"><a href="#119">Poissoroy</a></span>
+					</li>
+					
+					<li id="num_120">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">120</span>
+						<span class="pokelist_pokename"><a href="#120">Stari</a></span>
+					</li>
+					
+					<li id="num_121">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">121</span>
+						<span class="pokelist_pokename"><a href="#121">Staross</a></span>
+					</li>
+					
+					<li id="num_122">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">122</span>
+						<span class="pokelist_pokename"><a href="#122">M. Mime</a></span>
+					</li>
+					
+					<li id="num_123">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">123</span>
+						<span class="pokelist_pokename"><a href="#123">Insécateur</a></span>
+					</li>
+					
+					<li id="num_124">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">124</span>
+						<span class="pokelist_pokename"><a href="#124">Lippoutou</a></span>
+					</li>
+					
+					<li id="num_125">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">125</span>
+						<span class="pokelist_pokename"><a href="#125">Élektek</a></span>
+					</li>
+					
+					<li id="num_126">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">126</span>
+						<span class="pokelist_pokename"><a href="#126">Magmar</a></span>
+					</li>
+					
+					<li id="num_127">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">127</span>
+						<span class="pokelist_pokename"><a href="#127">Scarabrute</a></span>
+					</li>
+					
+					<li id="num_128">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">128</span>
+						<span class="pokelist_pokename"><a href="#128">Tauros</a></span>
+					</li>
+					
+					<li id="num_129">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">129</span>
+						<span class="pokelist_pokename"><a href="#129">Magicarpe</a></span>
+					</li>
+					
+					<li id="num_130">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">130</span>
+						<span class="pokelist_pokename"><a href="#130">Léviator</a></span>
+					</li>
+					
+					<li id="num_131">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">131</span>
+						<span class="pokelist_pokename"><a href="#131">Lokhlass</a></span>
+					</li>
+					
+					<li id="num_132">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">132</span>
+						<span class="pokelist_pokename"><a href="#132">Métamorph</a></span>
+					</li>
+					
+					<li id="num_133">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">133</span>
+						<span class="pokelist_pokename"><a href="#133">Évoli</a></span>
+					</li>
+					
+					<li id="num_134">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">134</span>
+						<span class="pokelist_pokename"><a href="#134">Aquali</a></span>
+					</li>
+					
+					<li id="num_135">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">135</span>
+						<span class="pokelist_pokename"><a href="#135">Voltali</a></span>
+					</li>
+					
+					<li id="num_136">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">136</span>
+						<span class="pokelist_pokename"><a href="#136">Pyroli</a></span>
+					</li>
+					
+					<li id="num_137">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">137</span>
+						<span class="pokelist_pokename"><a href="#137">Porygon</a></span>
+					</li>
+					
+					<li id="num_138">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">138</span>
+						<span class="pokelist_pokename"><a href="#138">Amonita</a></span>
+					</li>
+					
+					<li id="num_139">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">139</span>
+						<span class="pokelist_pokename"><a href="#139">Amonistar</a></span>
+					</li>
+					
+					<li id="num_140">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">140</span>
+						<span class="pokelist_pokename"><a href="#140">Kabuto</a></span>
+					</li>
+					
+					<li id="num_141">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">141</span>
+						<span class="pokelist_pokename"><a href="#141">Kabutops</a></span>
+					</li>
+					
+					<li id="num_142">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">142</span>
+						<span class="pokelist_pokename"><a href="#142">Ptéra</a></span>
+					</li>
+					
+					<li id="num_143">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">143</span>
+						<span class="pokelist_pokename"><a href="#143">Ronflex</a></span>
+					</li>
+					
+					<li id="num_144">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">144</span>
+						<span class="pokelist_pokename"><a href="#144">Artikodin</a></span>
+					</li>
+					
+					<li id="num_145">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">145</span>
+						<span class="pokelist_pokename"><a href="#145">Électhor</a></span>
+					</li>
+					
+					<li id="num_146">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">146</span>
+						<span class="pokelist_pokename"><a href="#146">Sulfura</a></span>
+					</li>
+					
+					<li id="num_147">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">147</span>
+						<span class="pokelist_pokename"><a href="#147">Minidraco</a></span>
+					</li>
+					
+					<li id="num_148">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">148</span>
+						<span class="pokelist_pokename"><a href="#148">Draco</a></span>
+					</li>
+					
+					<li id="num_149">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">149</span>
+						<span class="pokelist_pokename"><a href="#149">Dracolosse</a></span>
+					</li>
+					
+					<li id="num_150">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">150</span>
+						<span class="pokelist_pokename"><a href="#150">Mewtwo</a></span>
+					</li>
+					
+					<li id="num_151">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">151</span>
+						<span class="pokelist_pokename"><a href="#151">Mew</a></span>
+					</li>
+					
+					<li id="num_152">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">152</span>
+						<span class="pokelist_pokename"><a href="#152">Germignon</a></span>
+					</li>
+					
+					<li id="num_153">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">153</span>
+						<span class="pokelist_pokename"><a href="#153">Macronium</a></span>
+					</li>
+					
+					<li id="num_154">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">154</span>
+						<span class="pokelist_pokename"><a href="#154">Méganium</a></span>
+					</li>
+					
+					<li id="num_155">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">155</span>
+						<span class="pokelist_pokename"><a href="#155">Héricendre</a></span>
+					</li>
+					
+					<li id="num_156">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">156</span>
+						<span class="pokelist_pokename"><a href="#156">Feurisson</a></span>
+					</li>
+					
+					<li id="num_157">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">157</span>
+						<span class="pokelist_pokename"><a href="#157">Typhlosion</a></span>
+					</li>
+					
+					<li id="num_158">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">158</span>
+						<span class="pokelist_pokename"><a href="#158">Kaiminus</a></span>
+					</li>
+					
+					<li id="num_159">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">159</span>
+						<span class="pokelist_pokename"><a href="#159">Crocrodil</a></span>
+					</li>
+					
+					<li id="num_160">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">160</span>
+						<span class="pokelist_pokename"><a href="#160">Aligatueur</a></span>
+					</li>
+					
+					<li id="num_161">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">161</span>
+						<span class="pokelist_pokename"><a href="#161">Fouinette</a></span>
+					</li>
+					
+					<li id="num_162">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">162</span>
+						<span class="pokelist_pokename"><a href="#162">Fouinar</a></span>
+					</li>
+					
+					<li id="num_163">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">163</span>
+						<span class="pokelist_pokename"><a href="#163">Hoothoot</a></span>
+					</li>
+					
+					<li id="num_164">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">164</span>
+						<span class="pokelist_pokename"><a href="#164">Noarfang</a></span>
+					</li>
+					
+					<li id="num_165">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">165</span>
+						<span class="pokelist_pokename"><a href="#165">Coxy</a></span>
+					</li>
+					
+					<li id="num_166">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">166</span>
+						<span class="pokelist_pokename"><a href="#166">Coxyclaque</a></span>
+					</li>
+					
+					<li id="num_167">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">167</span>
+						<span class="pokelist_pokename"><a href="#167">Mimigal</a></span>
+					</li>
+					
+					<li id="num_168">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">168</span>
+						<span class="pokelist_pokename"><a href="#168">Migalos</a></span>
+					</li>
+					
+					<li id="num_169">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">169</span>
+						<span class="pokelist_pokename"><a href="#169">Nostenfer</a></span>
+					</li>
+					
+					<li id="num_170">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">170</span>
+						<span class="pokelist_pokename"><a href="#170">Loupio</a></span>
+					</li>
+					
+					<li id="num_171">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">171</span>
+						<span class="pokelist_pokename"><a href="#171">Lanturn</a></span>
+					</li>
+					
+					<li id="num_172">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">172</span>
+						<span class="pokelist_pokename"><a href="#172">Pichu</a></span>
+					</li>
+					
+					<li id="num_173">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">173</span>
+						<span class="pokelist_pokename"><a href="#173">Mélo</a></span>
+					</li>
+					
+					<li id="num_174">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">174</span>
+						<span class="pokelist_pokename"><a href="#174">Toudoudou</a></span>
+					</li>
+					
+					<li id="num_175">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">175</span>
+						<span class="pokelist_pokename"><a href="#175">Togepi</a></span>
+					</li>
+					
+					<li id="num_176">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">176</span>
+						<span class="pokelist_pokename"><a href="#176">Togetic</a></span>
+					</li>
+					
+					<li id="num_177">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">177</span>
+						<span class="pokelist_pokename"><a href="#177">Natu</a></span>
+					</li>
+					
+					<li id="num_178">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">178</span>
+						<span class="pokelist_pokename"><a href="#178">Xatu</a></span>
+					</li>
+					
+					<li id="num_179">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">179</span>
+						<span class="pokelist_pokename"><a href="#179">Wattouat</a></span>
+					</li>
+					
+					<li id="num_180">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">180</span>
+						<span class="pokelist_pokename"><a href="#180">Lainergie</a></span>
+					</li>
+					
+					<li id="num_181">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">181</span>
+						<span class="pokelist_pokename"><a href="#181">Pharamp</a></span>
+					</li>
+					
+					<li id="num_182">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">182</span>
+						<span class="pokelist_pokename"><a href="#182">Joliflor</a></span>
+					</li>
+					
+					<li id="num_183">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">183</span>
+						<span class="pokelist_pokename"><a href="#183">Marill</a></span>
+					</li>
+					
+					<li id="num_184">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">184</span>
+						<span class="pokelist_pokename"><a href="#184">Azumarill</a></span>
+					</li>
+					
+					<li id="num_185">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">185</span>
+						<span class="pokelist_pokename"><a href="#185">Simularbre</a></span>
+					</li>
+					
+					<li id="num_186">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">186</span>
+						<span class="pokelist_pokename"><a href="#186">Tarpaud</a></span>
+					</li>
+					
+					<li id="num_187">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">187</span>
+						<span class="pokelist_pokename"><a href="#187">Granivol</a></span>
+					</li>
+					
+					<li id="num_188">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">188</span>
+						<span class="pokelist_pokename"><a href="#188">Floravol</a></span>
+					</li>
+					
+					<li id="num_189">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">189</span>
+						<span class="pokelist_pokename"><a href="#189">Cotovol</a></span>
+					</li>
+					
+					<li id="num_190">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">190</span>
+						<span class="pokelist_pokename"><a href="#190">Capumain</a></span>
+					</li>
+					
+					<li id="num_191">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">191</span>
+						<span class="pokelist_pokename"><a href="#191">Tournegrin</a></span>
+					</li>
+					
+					<li id="num_192">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">192</span>
+						<span class="pokelist_pokename"><a href="#192">Héliatronc</a></span>
+					</li>
+					
+					<li id="num_193">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">193</span>
+						<span class="pokelist_pokename"><a href="#193">Yanma</a></span>
+					</li>
+					
+					<li id="num_194">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">194</span>
+						<span class="pokelist_pokename"><a href="#194">Axoloto</a></span>
+					</li>
+					
+					<li id="num_195">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">195</span>
+						<span class="pokelist_pokename"><a href="#195">Maraiste</a></span>
+					</li>
+					
+					<li id="num_196">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">196</span>
+						<span class="pokelist_pokename"><a href="#196">Mentali</a></span>
+					</li>
+					
+					<li id="num_197">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">197</span>
+						<span class="pokelist_pokename"><a href="#197">Noctali</a></span>
+					</li>
+					
+					<li id="num_198">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">198</span>
+						<span class="pokelist_pokename"><a href="#198">Cornèbre</a></span>
+					</li>
+					
+					<li id="num_199">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">199</span>
+						<span class="pokelist_pokename"><a href="#199">Roigada</a></span>
+					</li>
+					
+					<li id="num_200">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">200</span>
+						<span class="pokelist_pokename"><a href="#200">Feuforêve</a></span>
+					</li>
+					
+					<li id="num_201">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">201</span>
+						<span class="pokelist_pokename"><a href="#201">Zarbi</a></span>
+					</li>
+					
+					<li id="num_202">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">202</span>
+						<span class="pokelist_pokename"><a href="#202">Qulbutoké</a></span>
+					</li>
+					
+					<li id="num_203">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">203</span>
+						<span class="pokelist_pokename"><a href="#203">Girafarig</a></span>
+					</li>
+					
+					<li id="num_204">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">204</span>
+						<span class="pokelist_pokename"><a href="#204">Pomdepik</a></span>
+					</li>
+					
+					<li id="num_205">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">205</span>
+						<span class="pokelist_pokename"><a href="#205">Foretress</a></span>
+					</li>
+					
+					<li id="num_206">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">206</span>
+						<span class="pokelist_pokename"><a href="#206">Insolourdo</a></span>
+					</li>
+					
+					<li id="num_207">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">207</span>
+						<span class="pokelist_pokename"><a href="#207">Scorplane</a></span>
+					</li>
+					
+					<li id="num_208">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">208</span>
+						<span class="pokelist_pokename"><a href="#208">Steelix</a></span>
+					</li>
+					
+					<li id="num_209">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">209</span>
+						<span class="pokelist_pokename"><a href="#209">Snubbull</a></span>
+					</li>
+					
+					<li id="num_210">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">210</span>
+						<span class="pokelist_pokename"><a href="#210">Granbull</a></span>
+					</li>
+					
+					<li id="num_211">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">211</span>
+						<span class="pokelist_pokename"><a href="#211">Qwilfish</a></span>
+					</li>
+					
+					<li id="num_212">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">212</span>
+						<span class="pokelist_pokename"><a href="#212">Cizayox</a></span>
+					</li>
+					
+					<li id="num_213">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">213</span>
+						<span class="pokelist_pokename"><a href="#213">Caratroc</a></span>
+					</li>
+					
+					<li id="num_214">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">214</span>
+						<span class="pokelist_pokename"><a href="#214">Scarhino</a></span>
+					</li>
+					
+					<li id="num_215">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">215</span>
+						<span class="pokelist_pokename"><a href="#215">Farfuret</a></span>
+					</li>
+					
+					<li id="num_216">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">216</span>
+						<span class="pokelist_pokename"><a href="#216">Teddiursa</a></span>
+					</li>
+					
+					<li id="num_217">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">217</span>
+						<span class="pokelist_pokename"><a href="#217">Ursaring</a></span>
+					</li>
+					
+					<li id="num_218">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">218</span>
+						<span class="pokelist_pokename"><a href="#218">Limagma</a></span>
+					</li>
+					
+					<li id="num_219">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">219</span>
+						<span class="pokelist_pokename"><a href="#219">Volcaropod</a></span>
+					</li>
+					
+					<li id="num_220">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">220</span>
+						<span class="pokelist_pokename"><a href="#220">Marcacrin</a></span>
+					</li>
+					
+					<li id="num_221">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">221</span>
+						<span class="pokelist_pokename"><a href="#221">Cochignon</a></span>
+					</li>
+					
+					<li id="num_222">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">222</span>
+						<span class="pokelist_pokename"><a href="#222">Corayon</a></span>
+					</li>
+					
+					<li id="num_223">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">223</span>
+						<span class="pokelist_pokename"><a href="#223">Rémoraid</a></span>
+					</li>
+					
+					<li id="num_224">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">224</span>
+						<span class="pokelist_pokename"><a href="#224">Octillery</a></span>
+					</li>
+					
+					<li id="num_225">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">225</span>
+						<span class="pokelist_pokename"><a href="#225">Cadoizo</a></span>
+					</li>
+					
+					<li id="num_226">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">226</span>
+						<span class="pokelist_pokename"><a href="#226">Démanta</a></span>
+					</li>
+					
+					<li id="num_227">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">227</span>
+						<span class="pokelist_pokename"><a href="#227">Airmure</a></span>
+					</li>
+					
+					<li id="num_228">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">228</span>
+						<span class="pokelist_pokename"><a href="#228">Malosse</a></span>
+					</li>
+					
+					<li id="num_229">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">229</span>
+						<span class="pokelist_pokename"><a href="#229">Démolosse</a></span>
+					</li>
+					
+					<li id="num_230">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">230</span>
+						<span class="pokelist_pokename"><a href="#230">Hyporoi</a></span>
+					</li>
+					
+					<li id="num_231">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">231</span>
+						<span class="pokelist_pokename"><a href="#231">Phanpy</a></span>
+					</li>
+					
+					<li id="num_232">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">232</span>
+						<span class="pokelist_pokename"><a href="#232">Donphan</a></span>
+					</li>
+					
+					<li id="num_233">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">233</span>
+						<span class="pokelist_pokename"><a href="#233">Porygon2</a></span>
+					</li>
+					
+					<li id="num_234">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">234</span>
+						<span class="pokelist_pokename"><a href="#234">Cerfrousse</a></span>
+					</li>
+					
+					<li id="num_235">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">235</span>
+						<span class="pokelist_pokename"><a href="#235">Queulorior</a></span>
+					</li>
+					
+					<li id="num_236">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">236</span>
+						<span class="pokelist_pokename"><a href="#236">Debugant</a></span>
+					</li>
+					
+					<li id="num_237">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">237</span>
+						<span class="pokelist_pokename"><a href="#237">Kapoera</a></span>
+					</li>
+					
+					<li id="num_238">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">238</span>
+						<span class="pokelist_pokename"><a href="#238">Lippouti</a></span>
+					</li>
+					
+					<li id="num_239">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">239</span>
+						<span class="pokelist_pokename"><a href="#239">Élekid</a></span>
+					</li>
+					
+					<li id="num_240">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">240</span>
+						<span class="pokelist_pokename"><a href="#240">Magby</a></span>
+					</li>
+					
+					<li id="num_241">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">241</span>
+						<span class="pokelist_pokename"><a href="#241">Ecrémeuh</a></span>
+					</li>
+					
+					<li id="num_242">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">242</span>
+						<span class="pokelist_pokename"><a href="#242">Leuphorie</a></span>
+					</li>
+					
+					<li id="num_243">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">243</span>
+						<span class="pokelist_pokename"><a href="#243">Raikou</a></span>
+					</li>
+					
+					<li id="num_244">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">244</span>
+						<span class="pokelist_pokename"><a href="#244">Entei</a></span>
+					</li>
+					
+					<li id="num_245">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">245</span>
+						<span class="pokelist_pokename"><a href="#245">Suicune</a></span>
+					</li>
+					
+					<li id="num_246">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">246</span>
+						<span class="pokelist_pokename"><a href="#246">Embrylex</a></span>
+					</li>
+					
+					<li id="num_247">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">247</span>
+						<span class="pokelist_pokename"><a href="#247">Ymphect</a></span>
+					</li>
+					
+					<li id="num_248">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">248</span>
+						<span class="pokelist_pokename"><a href="#248">Tyranocif</a></span>
+					</li>
+					
+					<li id="num_249">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">249</span>
+						<span class="pokelist_pokename"><a href="#249">Lugia</a></span>
+					</li>
+					
+					<li id="num_250">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">250</span>
+						<span class="pokelist_pokename"><a href="#250">Ho-Oh</a></span>
+					</li>
+					
+					<li id="num_251">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">251</span>
+						<span class="pokelist_pokename"><a href="#251">Celebi</a></span>
+					</li>
+					
+					<li id="num_252">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">252</span>
+						<span class="pokelist_pokename"><a href="#252">Arcko</a></span>
+					</li>
+					
+					<li id="num_253">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">253</span>
+						<span class="pokelist_pokename"><a href="#253">Massko</a></span>
+					</li>
+					
+					<li id="num_254">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">254</span>
+						<span class="pokelist_pokename"><a href="#254">Jungko</a></span>
+					</li>
+					
+					<li id="num_255">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">255</span>
+						<span class="pokelist_pokename"><a href="#255">Poussifeu</a></span>
+					</li>
+					
+					<li id="num_256">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">256</span>
+						<span class="pokelist_pokename"><a href="#256">Galifeu</a></span>
+					</li>
+					
+					<li id="num_257">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">257</span>
+						<span class="pokelist_pokename"><a href="#257">Braségali</a></span>
+					</li>
+					
+					<li id="num_258">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">258</span>
+						<span class="pokelist_pokename"><a href="#258">Gobou</a></span>
+					</li>
+					
+					<li id="num_259">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">259</span>
+						<span class="pokelist_pokename"><a href="#259">Flobio</a></span>
+					</li>
+					
+					<li id="num_260">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">260</span>
+						<span class="pokelist_pokename"><a href="#260">Laggron</a></span>
+					</li>
+					
+					<li id="num_261">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">261</span>
+						<span class="pokelist_pokename"><a href="#261">Medhyèna</a></span>
+					</li>
+					
+					<li id="num_262">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">262</span>
+						<span class="pokelist_pokename"><a href="#262">Grahyèna</a></span>
+					</li>
+					
+					<li id="num_263">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">263</span>
+						<span class="pokelist_pokename"><a href="#263">Zigzaton</a></span>
+					</li>
+					
+					<li id="num_264">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">264</span>
+						<span class="pokelist_pokename"><a href="#264">Linéon</a></span>
+					</li>
+					
+					<li id="num_265">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">265</span>
+						<span class="pokelist_pokename"><a href="#265">Chenipotte</a></span>
+					</li>
+					
+					<li id="num_266">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">266</span>
+						<span class="pokelist_pokename"><a href="#266">Armulys</a></span>
+					</li>
+					
+					<li id="num_267">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">267</span>
+						<span class="pokelist_pokename"><a href="#267">Charmillon</a></span>
+					</li>
+					
+					<li id="num_268">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">268</span>
+						<span class="pokelist_pokename"><a href="#268">Blindalys</a></span>
+					</li>
+					
+					<li id="num_269">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">269</span>
+						<span class="pokelist_pokename"><a href="#269">Papinox</a></span>
+					</li>
+					
+					<li id="num_270">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">270</span>
+						<span class="pokelist_pokename"><a href="#270">Nénupiot</a></span>
+					</li>
+					
+					<li id="num_271">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">271</span>
+						<span class="pokelist_pokename"><a href="#271">Lombre</a></span>
+					</li>
+					
+					<li id="num_272">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">272</span>
+						<span class="pokelist_pokename"><a href="#272">Ludicolo</a></span>
+					</li>
+					
+					<li id="num_273">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">273</span>
+						<span class="pokelist_pokename"><a href="#273">Grainipiot</a></span>
+					</li>
+					
+					<li id="num_274">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">274</span>
+						<span class="pokelist_pokename"><a href="#274">Pifeuil</a></span>
+					</li>
+					
+					<li id="num_275">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">275</span>
+						<span class="pokelist_pokename"><a href="#275">Tengalice</a></span>
+					</li>
+					
+					<li id="num_276">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">276</span>
+						<span class="pokelist_pokename"><a href="#276">Nirondelle</a></span>
+					</li>
+					
+					<li id="num_277">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">277</span>
+						<span class="pokelist_pokename"><a href="#277">Hélédelle</a></span>
+					</li>
+					
+					<li id="num_278">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">278</span>
+						<span class="pokelist_pokename"><a href="#278">Goélise</a></span>
+					</li>
+					
+					<li id="num_279">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">279</span>
+						<span class="pokelist_pokename"><a href="#279">Bekipan</a></span>
+					</li>
+					
+					<li id="num_280">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">280</span>
+						<span class="pokelist_pokename"><a href="#280">Tarsal</a></span>
+					</li>
+					
+					<li id="num_281">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">281</span>
+						<span class="pokelist_pokename"><a href="#281">Kirlia</a></span>
+					</li>
+					
+					<li id="num_282">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">282</span>
+						<span class="pokelist_pokename"><a href="#282">Gardevoir</a></span>
+					</li>
+					
+					<li id="num_283">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">283</span>
+						<span class="pokelist_pokename"><a href="#283">Arakdo</a></span>
+					</li>
+					
+					<li id="num_284">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">284</span>
+						<span class="pokelist_pokename"><a href="#284">Maskadra</a></span>
+					</li>
+					
+					<li id="num_285">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">285</span>
+						<span class="pokelist_pokename"><a href="#285">Balignon</a></span>
+					</li>
+					
+					<li id="num_286">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">286</span>
+						<span class="pokelist_pokename"><a href="#286">Chapignon</a></span>
+					</li>
+					
+					<li id="num_287">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">287</span>
+						<span class="pokelist_pokename"><a href="#287">Parecool</a></span>
+					</li>
+					
+					<li id="num_288">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">288</span>
+						<span class="pokelist_pokename"><a href="#288">Vigoroth</a></span>
+					</li>
+					
+					<li id="num_289">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">289</span>
+						<span class="pokelist_pokename"><a href="#289">Monaflèmit</a></span>
+					</li>
+					
+					<li id="num_290">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">290</span>
+						<span class="pokelist_pokename"><a href="#290">Ningale</a></span>
+					</li>
+					
+					<li id="num_291">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">291</span>
+						<span class="pokelist_pokename"><a href="#291">Ninjask</a></span>
+					</li>
+					
+					<li id="num_292">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">292</span>
+						<span class="pokelist_pokename"><a href="#292">Munja</a></span>
+					</li>
+					
+					<li id="num_293">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">293</span>
+						<span class="pokelist_pokename"><a href="#293">Chuchmur</a></span>
+					</li>
+					
+					<li id="num_294">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">294</span>
+						<span class="pokelist_pokename"><a href="#294">Ramboum</a></span>
+					</li>
+					
+					<li id="num_295">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">295</span>
+						<span class="pokelist_pokename"><a href="#295">Brouhabam</a></span>
+					</li>
+					
+					<li id="num_296">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">296</span>
+						<span class="pokelist_pokename"><a href="#296">Makuhita</a></span>
+					</li>
+					
+					<li id="num_297">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">297</span>
+						<span class="pokelist_pokename"><a href="#297">Hariyama</a></span>
+					</li>
+					
+					<li id="num_298">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">298</span>
+						<span class="pokelist_pokename"><a href="#298">Azurill</a></span>
+					</li>
+					
+					<li id="num_299">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">299</span>
+						<span class="pokelist_pokename"><a href="#299">Tarinor</a></span>
+					</li>
+					
+					<li id="num_300">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">300</span>
+						<span class="pokelist_pokename"><a href="#300">Skitty</a></span>
+					</li>
+					
+					<li id="num_301">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">301</span>
+						<span class="pokelist_pokename"><a href="#301">Delcatty</a></span>
+					</li>
+					
+					<li id="num_302">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">302</span>
+						<span class="pokelist_pokename"><a href="#302">Ténéfix</a></span>
+					</li>
+					
+					<li id="num_303">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">303</span>
+						<span class="pokelist_pokename"><a href="#303">Mysdibule</a></span>
+					</li>
+					
+					<li id="num_304">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">304</span>
+						<span class="pokelist_pokename"><a href="#304">Galekid</a></span>
+					</li>
+					
+					<li id="num_305">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">305</span>
+						<span class="pokelist_pokename"><a href="#305">Galegon</a></span>
+					</li>
+					
+					<li id="num_306">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">306</span>
+						<span class="pokelist_pokename"><a href="#306">Galeking</a></span>
+					</li>
+					
+					<li id="num_307">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">307</span>
+						<span class="pokelist_pokename"><a href="#307">Méditikka</a></span>
+					</li>
+					
+					<li id="num_308">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">308</span>
+						<span class="pokelist_pokename"><a href="#308">Charmina</a></span>
+					</li>
+					
+					<li id="num_309">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">309</span>
+						<span class="pokelist_pokename"><a href="#309">Dynavolt</a></span>
+					</li>
+					
+					<li id="num_310">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">310</span>
+						<span class="pokelist_pokename"><a href="#310">Élecsprint</a></span>
+					</li>
+					
+					<li id="num_311">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">311</span>
+						<span class="pokelist_pokename"><a href="#311">Posipi</a></span>
+					</li>
+					
+					<li id="num_312">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">312</span>
+						<span class="pokelist_pokename"><a href="#312">Négapi</a></span>
+					</li>
+					
+					<li id="num_313">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">313</span>
+						<span class="pokelist_pokename"><a href="#313">Muciole</a></span>
+					</li>
+					
+					<li id="num_314">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">314</span>
+						<span class="pokelist_pokename"><a href="#314">Lumivole</a></span>
+					</li>
+					
+					<li id="num_315">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">315</span>
+						<span class="pokelist_pokename"><a href="#315">Rosélia</a></span>
+					</li>
+					
+					<li id="num_316">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">316</span>
+						<span class="pokelist_pokename"><a href="#316">Gloupti</a></span>
+					</li>
+					
+					<li id="num_317">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">317</span>
+						<span class="pokelist_pokename"><a href="#317">Avaltout</a></span>
+					</li>
+					
+					<li id="num_318">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">318</span>
+						<span class="pokelist_pokename"><a href="#318">Carvanha</a></span>
+					</li>
+					
+					<li id="num_319">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">319</span>
+						<span class="pokelist_pokename"><a href="#319">Sharpedo</a></span>
+					</li>
+					
+					<li id="num_320">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">320</span>
+						<span class="pokelist_pokename"><a href="#320">Wailmer</a></span>
+					</li>
+					
+					<li id="num_321">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">321</span>
+						<span class="pokelist_pokename"><a href="#321">Wailord</a></span>
+					</li>
+					
+					<li id="num_322">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">322</span>
+						<span class="pokelist_pokename"><a href="#322">Chamallot</a></span>
+					</li>
+					
+					<li id="num_323">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">323</span>
+						<span class="pokelist_pokename"><a href="#323">Camérupt</a></span>
+					</li>
+					
+					<li id="num_324">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">324</span>
+						<span class="pokelist_pokename"><a href="#324">Chartor</a></span>
+					</li>
+					
+					<li id="num_325">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">325</span>
+						<span class="pokelist_pokename"><a href="#325">Spoink</a></span>
+					</li>
+					
+					<li id="num_326">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">326</span>
+						<span class="pokelist_pokename"><a href="#326">Groret</a></span>
+					</li>
+					
+					<li id="num_327">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">327</span>
+						<span class="pokelist_pokename"><a href="#327">Spinda</a></span>
+					</li>
+					
+					<li id="num_328">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">328</span>
+						<span class="pokelist_pokename"><a href="#328">Kraknoix</a></span>
+					</li>
+					
+					<li id="num_329">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">329</span>
+						<span class="pokelist_pokename"><a href="#329">Vibraninf</a></span>
+					</li>
+					
+					<li id="num_330">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">330</span>
+						<span class="pokelist_pokename"><a href="#330">Libégon</a></span>
+					</li>
+					
+					<li id="num_331">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">331</span>
+						<span class="pokelist_pokename"><a href="#331">Cacnea</a></span>
+					</li>
+					
+					<li id="num_332">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">332</span>
+						<span class="pokelist_pokename"><a href="#332">Cacturne</a></span>
+					</li>
+					
+					<li id="num_333">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">333</span>
+						<span class="pokelist_pokename"><a href="#333">Tylton</a></span>
+					</li>
+					
+					<li id="num_334">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">334</span>
+						<span class="pokelist_pokename"><a href="#334">Altaria</a></span>
+					</li>
+					
+					<li id="num_335">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">335</span>
+						<span class="pokelist_pokename"><a href="#335">Mangriff</a></span>
+					</li>
+					
+					<li id="num_336">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">336</span>
+						<span class="pokelist_pokename"><a href="#336">Séviper</a></span>
+					</li>
+					
+					<li id="num_337">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">337</span>
+						<span class="pokelist_pokename"><a href="#337">Séléroc</a></span>
+					</li>
+					
+					<li id="num_338">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">338</span>
+						<span class="pokelist_pokename"><a href="#338">Solaroc</a></span>
+					</li>
+					
+					<li id="num_339">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">339</span>
+						<span class="pokelist_pokename"><a href="#339">Barloche</a></span>
+					</li>
+					
+					<li id="num_340">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">340</span>
+						<span class="pokelist_pokename"><a href="#340">Barbicha</a></span>
+					</li>
+					
+					<li id="num_341">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">341</span>
+						<span class="pokelist_pokename"><a href="#341">Écrapince</a></span>
+					</li>
+					
+					<li id="num_342">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">342</span>
+						<span class="pokelist_pokename"><a href="#342">Colhomard</a></span>
+					</li>
+					
+					<li id="num_343">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">343</span>
+						<span class="pokelist_pokename"><a href="#343">Balbuto</a></span>
+					</li>
+					
+					<li id="num_344">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">344</span>
+						<span class="pokelist_pokename"><a href="#344">Kaorine</a></span>
+					</li>
+					
+					<li id="num_345">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">345</span>
+						<span class="pokelist_pokename"><a href="#345">Lilia</a></span>
+					</li>
+					
+					<li id="num_346">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">346</span>
+						<span class="pokelist_pokename"><a href="#346">Vacilys</a></span>
+					</li>
+					
+					<li id="num_347">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">347</span>
+						<span class="pokelist_pokename"><a href="#347">Anorith</a></span>
+					</li>
+					
+					<li id="num_348">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">348</span>
+						<span class="pokelist_pokename"><a href="#348">Armaldo</a></span>
+					</li>
+					
+					<li id="num_349">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">349</span>
+						<span class="pokelist_pokename"><a href="#349">Barpau</a></span>
+					</li>
+					
+					<li id="num_350">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">350</span>
+						<span class="pokelist_pokename"><a href="#350">Milobellus</a></span>
+					</li>
+					
+					<li id="num_351">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">351</span>
+						<span class="pokelist_pokename"><a href="#351">Morphéo</a></span>
+					</li>
+					
+					<li id="num_352">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">352</span>
+						<span class="pokelist_pokename"><a href="#352">Kecleon</a></span>
+					</li>
+					
+					<li id="num_353">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">353</span>
+						<span class="pokelist_pokename"><a href="#353">Polichombr</a></span>
+					</li>
+					
+					<li id="num_354">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">354</span>
+						<span class="pokelist_pokename"><a href="#354">Branette</a></span>
+					</li>
+					
+					<li id="num_355">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">355</span>
+						<span class="pokelist_pokename"><a href="#355">Skelénox</a></span>
+					</li>
+					
+					<li id="num_356">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">356</span>
+						<span class="pokelist_pokename"><a href="#356">Téraclope</a></span>
+					</li>
+					
+					<li id="num_357">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">357</span>
+						<span class="pokelist_pokename"><a href="#357">Tropius</a></span>
+					</li>
+					
+					<li id="num_358">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">358</span>
+						<span class="pokelist_pokename"><a href="#358">Éoko</a></span>
+					</li>
+					
+					<li id="num_359">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">359</span>
+						<span class="pokelist_pokename"><a href="#359">Absol</a></span>
+					</li>
+					
+					<li id="num_360">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">360</span>
+						<span class="pokelist_pokename"><a href="#360">Okéoké</a></span>
+					</li>
+					
+					<li id="num_361">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">361</span>
+						<span class="pokelist_pokename"><a href="#361">Stalgamin</a></span>
+					</li>
+					
+					<li id="num_362">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">362</span>
+						<span class="pokelist_pokename"><a href="#362">Oniglali</a></span>
+					</li>
+					
+					<li id="num_363">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">363</span>
+						<span class="pokelist_pokename"><a href="#363">Obalie</a></span>
+					</li>
+					
+					<li id="num_364">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">364</span>
+						<span class="pokelist_pokename"><a href="#364">Phogleur</a></span>
+					</li>
+					
+					<li id="num_365">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">365</span>
+						<span class="pokelist_pokename"><a href="#365">Kaimorse</a></span>
+					</li>
+					
+					<li id="num_366">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">366</span>
+						<span class="pokelist_pokename"><a href="#366">Coquiperl</a></span>
+					</li>
+					
+					<li id="num_367">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">367</span>
+						<span class="pokelist_pokename"><a href="#367">Serpang</a></span>
+					</li>
+					
+					<li id="num_368">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">368</span>
+						<span class="pokelist_pokename"><a href="#368">Rosabyss</a></span>
+					</li>
+					
+					<li id="num_369">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">369</span>
+						<span class="pokelist_pokename"><a href="#369">Relicanth</a></span>
+					</li>
+					
+					<li id="num_370">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">370</span>
+						<span class="pokelist_pokename"><a href="#370">Lovdisc</a></span>
+					</li>
+					
+					<li id="num_371">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">371</span>
+						<span class="pokelist_pokename"><a href="#371">Draby</a></span>
+					</li>
+					
+					<li id="num_372">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">372</span>
+						<span class="pokelist_pokename"><a href="#372">Drackhaus</a></span>
+					</li>
+					
+					<li id="num_373">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">373</span>
+						<span class="pokelist_pokename"><a href="#373">Drattak</a></span>
+					</li>
+					
+					<li id="num_374">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">374</span>
+						<span class="pokelist_pokename"><a href="#374">Terhal</a></span>
+					</li>
+					
+					<li id="num_375">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">375</span>
+						<span class="pokelist_pokename"><a href="#375">Métang</a></span>
+					</li>
+					
+					<li id="num_376">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">376</span>
+						<span class="pokelist_pokename"><a href="#376">Métalosse</a></span>
+					</li>
+					
+					<li id="num_377">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">377</span>
+						<span class="pokelist_pokename"><a href="#377">Regirock</a></span>
+					</li>
+					
+					<li id="num_378">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">378</span>
+						<span class="pokelist_pokename"><a href="#378">Regice</a></span>
+					</li>
+					
+					<li id="num_379">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">379</span>
+						<span class="pokelist_pokename"><a href="#379">Registeel</a></span>
+					</li>
+					
+					<li id="num_380">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">380</span>
+						<span class="pokelist_pokename"><a href="#380">Latias</a></span>
+					</li>
+					
+					<li id="num_381">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">381</span>
+						<span class="pokelist_pokename"><a href="#381">Latios</a></span>
+					</li>
+					
+					<li id="num_382">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">382</span>
+						<span class="pokelist_pokename"><a href="#382">Kyogre</a></span>
+					</li>
+					
+					<li id="num_383">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">383</span>
+						<span class="pokelist_pokename"><a href="#383">Groudon</a></span>
+					</li>
+					
+					<li id="num_384">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">384</span>
+						<span class="pokelist_pokename"><a href="#384">Rayquaza</a></span>
+					</li>
+					
+					<li id="num_385">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">385</span>
+						<span class="pokelist_pokename"><a href="#385">Jirachi</a></span>
+					</li>
+					
+					<li id="num_386">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">386</span>
+						<span class="pokelist_pokename"><a href="#386">Deoxys</a></span>
+					</li>
+					
+					<li id="num_387">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">387</span>
+						<span class="pokelist_pokename"><a href="#387">Tortipouss</a></span>
+					</li>
+					
+					<li id="num_388">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">388</span>
+						<span class="pokelist_pokename"><a href="#388">Boskara</a></span>
+					</li>
+					
+					<li id="num_389">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">389</span>
+						<span class="pokelist_pokename"><a href="#389">Torterra</a></span>
+					</li>
+					
+					<li id="num_390">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">390</span>
+						<span class="pokelist_pokename"><a href="#390">Ouisticram</a></span>
+					</li>
+					
+					<li id="num_391">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">391</span>
+						<span class="pokelist_pokename"><a href="#391">Chimpenfeu</a></span>
+					</li>
+					
+					<li id="num_392">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">392</span>
+						<span class="pokelist_pokename"><a href="#392">Simiabraz</a></span>
+					</li>
+					
+					<li id="num_393">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">393</span>
+						<span class="pokelist_pokename"><a href="#393">Tiplouf</a></span>
+					</li>
+					
+					<li id="num_394">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">394</span>
+						<span class="pokelist_pokename"><a href="#394">Prinplouf</a></span>
+					</li>
+					
+					<li id="num_395">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">395</span>
+						<span class="pokelist_pokename"><a href="#395">Pingoléon</a></span>
+					</li>
+					
+					<li id="num_396">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">396</span>
+						<span class="pokelist_pokename"><a href="#396">Étourmi</a></span>
+					</li>
+					
+					<li id="num_397">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">397</span>
+						<span class="pokelist_pokename"><a href="#397">Étourvol</a></span>
+					</li>
+					
+					<li id="num_398">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">398</span>
+						<span class="pokelist_pokename"><a href="#398">Étouraptor</a></span>
+					</li>
+					
+					<li id="num_399">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">399</span>
+						<span class="pokelist_pokename"><a href="#399">Keunotor</a></span>
+					</li>
+					
+					<li id="num_400">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">400</span>
+						<span class="pokelist_pokename"><a href="#400">Castorno</a></span>
+					</li>
+					
+					<li id="num_401">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">401</span>
+						<span class="pokelist_pokename"><a href="#401">Crikzik</a></span>
+					</li>
+					
+					<li id="num_402">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">402</span>
+						<span class="pokelist_pokename"><a href="#402">Mélokrik</a></span>
+					</li>
+					
+					<li id="num_403">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">403</span>
+						<span class="pokelist_pokename"><a href="#403">Lixy</a></span>
+					</li>
+					
+					<li id="num404">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">404</span>
+						<span class="pokelist_pokename"><a href="#404">Luxio</a></span>
+					</li>
+					
+					<li id="num_405">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">405</span>
+						<span class="pokelist_pokename"><a href="#405">Luxray</a></span>
+					</li>
+					
+					<li id="num_406">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">406</span>
+						<span class="pokelist_pokename"><a href="#406">Rozbouton</a></span>
+					</li>
+					
+					<li id="num_407">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">407</span>
+						<span class="pokelist_pokename"><a href="#407">Roserade</a></span>
+					</li>
+					
+					<li id="num_408">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">408</span>
+						<span class="pokelist_pokename"><a href="#408">Kranidos</a></span>
+					</li>
+					
+					<li id="num_409">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">409</span>
+						<span class="pokelist_pokename"><a href="#409">Charkos</a></span>
+					</li>
+					
+					<li id="num_410">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">410</span>
+						<span class="pokelist_pokename"><a href="#410">Dinoclier</a></span>
+					</li>
+					
+					<li id="num_411">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">411</span>
+						<span class="pokelist_pokename"><a href="#411">Bastiodon</a></span>
+					</li>
+					
+					<li id="num_412">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">412</span>
+						<span class="pokelist_pokename"><a href="#412">Cheniti</a></span>
+					</li>
+					
+					<li id="num_413">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">413</span>
+						<span class="pokelist_pokename"><a href="#413">Cheniselle</a></span>
+					</li>
+					
+					<li id="num_414">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">414</span>
+						<span class="pokelist_pokename"><a href="#414">Papilord</a></span>
+					</li>
+					
+					<li id="num_415">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">415</span>
+						<span class="pokelist_pokename"><a href="#415">Apitrini</a></span>
+					</li>
+					
+					<li id="num_416">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">416</span>
+						<span class="pokelist_pokename"><a href="#416">Apireine</a></span>
+					</li>
+					
+					<li id="num_417">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">417</span>
+						<span class="pokelist_pokename"><a href="#417">Pachirisu</a></span>
+					</li>
+					
+					<li id="num_418">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">418</span>
+						<span class="pokelist_pokename"><a href="#418">Mustébouée</a></span>
+					</li>
+					
+					<li id="num_419">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">419</span>
+						<span class="pokelist_pokename"><a href="#419">Mustéflott</a></span>
+					</li>
+					
+					<li id="num_420">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">420</span>
+						<span class="pokelist_pokename"><a href="#420">Ceribou</a></span>
+					</li>
+					
+					<li id="num_421">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">421</span>
+						<span class="pokelist_pokename"><a href="#421">Ceriflor</a></span>
+					</li>
+					
+					<li id="num_422">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">422</span>
+						<span class="pokelist_pokename"><a href="#422">Sancoki</a></span>
+					</li>
+					
+					<li id="num_423">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">423</span>
+						<span class="pokelist_pokename"><a href="#423">Tritosor</a></span>
+					</li>
+					
+					<li id="num_424">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">424</span>
+						<span class="pokelist_pokename"><a href="#424">Capidextre</a></span>
+					</li>
+					
+					<li id="num_425">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">425</span>
+						<span class="pokelist_pokename"><a href="#425">Baudrive</a></span>
+					</li>
+					
+					<li id="num_426">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">426</span>
+						<span class="pokelist_pokename"><a href="#426">Grodrive</a></span>
+					</li>
+					
+					<li id="num_427">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">427</span>
+						<span class="pokelist_pokename"><a href="#427">Laporeille</a></span>
+					</li>
+					
+					<li id="num_428">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">428</span>
+						<span class="pokelist_pokename"><a href="#428">Lockpin</a></span>
+					</li>
+					
+					<li id="num_429">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">429</span>
+						<span class="pokelist_pokename"><a href="#429">Magirêve</a></span>
+					</li>
+					
+					<li id="num_430">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">430</span>
+						<span class="pokelist_pokename"><a href="#430">Corboss</a></span>
+					</li>
+					
+					<li id="num_431">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">431</span>
+						<span class="pokelist_pokename"><a href="#431">Chaglam</a></span>
+					</li>
+					
+					<li id="num_432">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">432</span>
+						<span class="pokelist_pokename"><a href="#432">Chaffreux</a></span>
+					</li>
+					
+					<li id="num_433">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">433</span>
+						<span class="pokelist_pokename"><a href="#433">Korillon</a></span>
+					</li>
+					
+					<li id="num_434">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">434</span>
+						<span class="pokelist_pokename"><a href="#434">Moufouette</a></span>
+					</li>
+					
+					<li id="num_435">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">435</span>
+						<span class="pokelist_pokename"><a href="#435">Moufflair</a></span>
+					</li>
+					
+					<li id="num_436">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">436</span>
+						<span class="pokelist_pokename"><a href="#436">Archéomire</a></span>
+					</li>
+					
+					<li id="num_437">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">437</span>
+						<span class="pokelist_pokename"><a href="#437">Archéodong</a></span>
+					</li>
+					
+					<li id="num_438">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">438</span>
+						<span class="pokelist_pokename"><a href="#438">Manzaï</a></span>
+					</li>
+					
+					<li id="num_439">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">439</span>
+						<span class="pokelist_pokename"><a href="#439">Mime Jr.</a></span>
+					</li>
+					
+					<li id="num_440">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">440</span>
+						<span class="pokelist_pokename"><a href="#440">Ptiravi</a></span>
+					</li>
+					
+					<li id="num_441">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">441</span>
+						<span class="pokelist_pokename"><a href="#441">Pijako</a></span>
+					</li>
+					
+					<li id="num_442">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">442</span>
+						<span class="pokelist_pokename"><a href="#442">Spiritomb</a></span>
+					</li>
+					
+					<li id="num_443">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">443</span>
+						<span class="pokelist_pokename"><a href="#443">Griknot</a></span>
+					</li>
+					
+					<li id="num_444">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">444</span>
+						<span class="pokelist_pokename"><a href="#444">Carmache</a></span>
+					</li>
+					
+					<li id="num_445">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">445</span>
+						<span class="pokelist_pokename"><a href="#445">Carchacrok</a></span>
+					</li>
+					
+					<li id="num_446">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">446</span>
+						<span class="pokelist_pokename"><a href="#446">Goinfrex</a></span>
+					</li>
+					
+					<li id="num_447">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">447</span>
+						<span class="pokelist_pokename"><a href="#447">Riolu</a></span>
+					</li>
+					
+					<li id="num_448">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">448</span>
+						<span class="pokelist_pokename"><a href="#448">Lucario</a></span>
+					</li>
+					
+					<li id="num_449">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">449</span>
+						<span class="pokelist_pokename"><a href="#449">Hippopotas</a></span>
+					</li>
+					
+					<li id="num_450">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">450</span>
+						<span class="pokelist_pokename"><a href="#450">Hippodocus</a></span>
+					</li>
+					
+					<li id="num_451">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">451</span>
+						<span class="pokelist_pokename"><a href="#451">Rapion</a></span>
+					</li>
+					
+					<li id="num_452">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">452</span>
+						<span class="pokelist_pokename"><a href="#452">Drascore</a></span>
+					</li>
+					
+					<li id="num_453">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">453</span>
+						<span class="pokelist_pokename"><a href="#453">Cradopaud</a></span>
+					</li>
+					
+					<li id="num_454">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">454</span>
+						<span class="pokelist_pokename"><a href="#454">Coatox</a></span>
+					</li>
+					
+					<li id="num_455">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">455</span>
+						<span class="pokelist_pokename"><a href="#455">Vortente</a></span>
+					</li>
+					
+					<li id="num_456">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">456</span>
+						<span class="pokelist_pokename"><a href="#456">Écayon</a></span>
+					</li>
+					
+					<li id="num_457">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">457</span>
+						<span class="pokelist_pokename"><a href="#457">Luminéon</a></span>
+					</li>
+					
+					<li id="num_458">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">458</span>
+						<span class="pokelist_pokename"><a href="#458">Babimanta</a></span>
+					</li>
+					
+					<li id="num_459">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">459</span>
+						<span class="pokelist_pokename"><a href="#459">Blizzi</a></span>
+					</li>
+					
+					<li id="num_460">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">460</span>
+						<span class="pokelist_pokename"><a href="#460">Blizzaroi</a></span>
+					</li>
+					
+					<li id="num_461">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">461</span>
+						<span class="pokelist_pokename"><a href="#461">Dimoret</a></span>
+					</li>
+					
+					<li id="num_462">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">462</span>
+						<span class="pokelist_pokename"><a href="#462">Magnézone</a></span>
+					</li>
+					
+					<li id="num_463">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">463</span>
+						<span class="pokelist_pokename"><a href="#463">Coudlangue</a></span>
+					</li>
+					
+					<li id="num_464">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">464</span>
+						<span class="pokelist_pokename"><a href="#464">Rhinastoc</a></span>
+					</li>
+					
+					<li id="num_465">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">465</span>
+						<span class="pokelist_pokename"><a href="#465">Bouldeneu</a></span>
+					</li>
+					
+					<li id="num_466">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">466</span>
+						<span class="pokelist_pokename"><a href="#466">Élekable</a></span>
+					</li>
+					
+					<li id="num_467">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">467</span>
+						<span class="pokelist_pokename"><a href="#467">Maganon</a></span>
+					</li>
+					
+					<li id="num_468">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">468</span>
+						<span class="pokelist_pokename"><a href="#468">Togekiss</a></span>
+					</li>
+					
+					<li id="num_469">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">469</span>
+						<span class="pokelist_pokename"><a href="#469">Yanmega</a></span>
+					</li>
+					
+					<li id="num_470">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">470</span>
+						<span class="pokelist_pokename"><a href="#470">Phyllali</a></span>
+					</li>
+					
+					<li id="num_471">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">471</span>
+						<span class="pokelist_pokename"><a href="#471">Givrali</a></span>
+					</li>
+					
+					<li id="num_472">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">472</span>
+						<span class="pokelist_pokename"><a href="#472">Scorvol</a></span>
+					</li>
+					
+					<li id="num_473">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">473</span>
+						<span class="pokelist_pokename"><a href="#473">Mammochon</a></span>
+					</li>
+					
+					<li id="num_474">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">474</span>
+						<span class="pokelist_pokename"><a href="#474">Porygon-Z</a></span>
+					</li>
+					
+					<li id="num_475">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">475</span>
+						<span class="pokelist_pokename"><a href="#475">Gallame</a></span>
+					</li>
+					
+					<li id="num_476">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">476</span>
+						<span class="pokelist_pokename"><a href="#476">Tarinorme</a></span>
+					</li>
+					
+					<li id="num_477">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">477</span>
+						<span class="pokelist_pokename"><a href="#477">Noctunoir</a></span>
+					</li>
+					
+					<li id="num_478">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">478</span>
+						<span class="pokelist_pokename"><a href="#478">Momartik</a></span>
+					</li>
+					
+					<li id="num_479">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">479</span>
+						<span class="pokelist_pokename"><a href="#479">Motisma</a></span>
+					</li>
+					
+					<li id="num_480">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">480</span>
+						<span class="pokelist_pokename"><a href="#480">Créhelf</a></span>
+					</li>
+					
+					<li id="num_481">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">481</span>
+						<span class="pokelist_pokename"><a href="#481">Créfollet</a></span>
+					</li>
+					
+					<li id="num_482">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">482</span>
+						<span class="pokelist_pokename"><a href="#482">Créfadet</a></span>
+					</li>
+					
+					<li id="num_483">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">483</span>
+						<span class="pokelist_pokename"><a href="#483">Dialga</a></span>
+					</li>
+					
+					<li id="num_484">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">484</span>
+						<span class="pokelist_pokename"><a href="#484">Palkia</a></span>
+					</li>
+					
+					<li id="num_485">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">485</span>
+						<span class="pokelist_pokename"><a href="#485">Heatran</a></span>
+					</li>
+					
+					<li id="num_486">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">486</span>
+						<span class="pokelist_pokename"><a href="#486">Regigigas</a></span>
+					</li>
+					
+					<li id="num_487">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">487</span>
+						<span class="pokelist_pokename"><a href="#487">Giratina</a></span>
+					</li>
+					
+					<li id="num_488">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">488</span>
+						<span class="pokelist_pokename"><a href="#488">Cresselia</a></span>
+					</li>
+					
+					<li id="num_489">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">489</span>
+						<span class="pokelist_pokename"><a href="#489">Phione</a></span>
+					</li>
+					
+					<li id="num_490">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">490</span>
+						<span class="pokelist_pokename"><a href="#490">Manaphy</a></span>
+					</li>
+					
+					<li id="num_491">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">491</span>
+						<span class="pokelist_pokename"><a href="#491">Darkrai</a></span>
+					</li>
+					
+					<li id="num_492">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">492</span>
+						<span class="pokelist_pokename"><a href="#492">Shaymin</a></span>
+					</li>
+					
+					<li id="num_493">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">493</span>
+						<span class="pokelist_pokename"><a href="#493">Arceus</a></span>
+					</li>
+					
+					<li id="num_494">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">494</span>
+						<span class="pokelist_pokename"><a href="#494">Victini</a></span>
+					</li>
+					
+					<li id="num_495">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">495</span>
+						<span class="pokelist_pokename"><a href="#495">Vipélierre</a></span>
+					</li>
+					
+					<li id="num_496">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">496</span>
+						<span class="pokelist_pokename"><a href="#496">Lianaja</a></span>
+					</li>
+					
+					<li id="num_497">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">497</span>
+						<span class="pokelist_pokename"><a href="#497">Majaspic</a></span>
+					</li>
+					
+					<li id="num_498">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">498</span>
+						<span class="pokelist_pokename"><a href="#498">Gruikui</a></span>
+					</li>
+					
+					<li id="num_499">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">499</span>
+						<span class="pokelist_pokename"><a href="#499">Grotichon</a></span>
+					</li>
+					
+					<li id="num_500">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">500</span>
+						<span class="pokelist_pokename"><a href="#500">Roitiflam</a></span>
+					</li>
+					
+					<li id="num_501">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">501</span>
+						<span class="pokelist_pokename"><a href="#501">Moustillon</a></span>
+					</li>
+					
+					<li id="num_502">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">502</span>
+						<span class="pokelist_pokename"><a href="#502">Mateloutre</a></span>
+					</li>
+					
+					<li id="num_503">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">503</span>
+						<span class="pokelist_pokename"><a href="#503">Clamiral</a></span>
+					</li>
+					
+					<li id="num_504">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">504</span>
+						<span class="pokelist_pokename"><a href="#504">Ratentif</a></span>
+					</li>
+					
+					<li id="num_505">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">505</span>
+						<span class="pokelist_pokename"><a href="#505">Miradar</a></span>
+					</li>
+					
+					<li id="num_506">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">506</span>
+						<span class="pokelist_pokename"><a href="#506">Ponchiot</a></span>
+					</li>
+					
+					<li id="num_507">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">507</span>
+						<span class="pokelist_pokename"><a href="#507">Ponchien</a></span>
+					</li>
+					
+					<li id="num_508">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">508</span>
+						<span class="pokelist_pokename"><a href="#508">Mastouffe</a></span>
+					</li>
+					
+					<li id="num_509">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">509</span>
+						<span class="pokelist_pokename"><a href="#509">Chacripan</a></span>
+					</li>
+					
+					<li id="num_510">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">510</span>
+						<span class="pokelist_pokename"><a href="#510">Léopardus</a></span>
+					</li>
+					
+					<li id="num_511">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">511</span>
+						<span class="pokelist_pokename"><a href="#511">Feuillajou</a></span>
+					</li>
+					
+					<li id="num_512">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">512</span>
+						<span class="pokelist_pokename"><a href="#512">Feuiloutan</a></span>
+					</li>
+					
+					<li id="num_513">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">513</span>
+						<span class="pokelist_pokename"><a href="#513">Flamajou</a></span>
+					</li>
+					
+					<li id="num_514">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">514</span>
+						<span class="pokelist_pokename"><a href="#514">Flamoutan</a></span>
+					</li>
+					
+					<li id="num_515">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">515</span>
+						<span class="pokelist_pokename"><a href="#515">Flotajou</a></span>
+					</li>
+					
+					<li id="num_516">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">516</span>
+						<span class="pokelist_pokename"><a href="#516">Flotoutan</a></span>
+					</li>
+					
+					<li id="num_517">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">517</span>
+						<span class="pokelist_pokename"><a href="#517">Munna</a></span>
+					</li>
+					
+					<li id="num_518">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">518</span>
+						<span class="pokelist_pokename"><a href="#518">Musharna</a></span>
+					</li>
+					
+					<li id="num_519">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">519</span>
+						<span class="pokelist_pokename"><a href="#519">Poichigeon</a></span>
+					</li>
+					
+					<li id="num_520">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">520</span>
+						<span class="pokelist_pokename"><a href="#520">Colombeau</a></span>
+					</li>
+					
+					<li id="num_521">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">521</span>
+						<span class="pokelist_pokename"><a href="#521">Déflaisan</a></span>
+					</li>
+					
+					<li id="num_522">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">522</span>
+						<span class="pokelist_pokename"><a href="#522">Zébibron</a></span>
+					</li>
+					
+					<li id="num_523">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">523</span>
+						<span class="pokelist_pokename"><a href="#523">Zéblitz</a></span>
+					</li>
+					
+					<li id="num_524">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">524</span>
+						<span class="pokelist_pokename"><a href="#524">Nodulithe</a></span>
+					</li>
+					
+					<li id="num_525">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">525</span>
+						<span class="pokelist_pokename"><a href="#525">Géolithe</a></span>
+					</li>
+					
+					<li id="num_526">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">526</span>
+						<span class="pokelist_pokename"><a href="#526">Gigalithe</a></span>
+					</li>
+					
+					<li id="num_527">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">527</span>
+						<span class="pokelist_pokename"><a href="#527">Chovsourir</a></span>
+					</li>
+					
+					<li id="num_528">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">528</span>
+						<span class="pokelist_pokename"><a href="#528">Rhinolove</a></span>
+					</li>
+					
+					<li id="num_529">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">529</span>
+						<span class="pokelist_pokename"><a href="#529">Rototaupe</a></span>
+					</li>
+					
+					<li id="num_530">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">530</span>
+						<span class="pokelist_pokename"><a href="#530">Minotaupe</a></span>
+					</li>
+					
+					<li id="num_531">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">531</span>
+						<span class="pokelist_pokename"><a href="#531">Nanméouïe</a></span>
+					</li>
+					
+					<li id="num_532">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">532</span>
+						<span class="pokelist_pokename"><a href="#532">Charpenti</a></span>
+					</li>
+					
+					<li id="num_533">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">533</span>
+						<span class="pokelist_pokename"><a href="#533">Ouvrifier</a></span>
+					</li>
+					
+					<li id="num_534">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">534</span>
+						<span class="pokelist_pokename"><a href="#534">Bétochef</a></span>
+					</li>
+					
+					<li id="num_535">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">535</span>
+						<span class="pokelist_pokename"><a href="#535">Tritonde</a></span>
+					</li>
+					
+					<li id="num_536">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">536</span>
+						<span class="pokelist_pokename"><a href="#536">Batracné</a></span>
+					</li>
+					
+					<li id="num_537">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">537</span>
+						<span class="pokelist_pokename"><a href="#537">Crapustule</a></span>
+					</li>
+					
+					<li id="num_538">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">538</span>
+						<span class="pokelist_pokename"><a href="#538">Judokrak</a></span>
+					</li>
+					
+					<li id="num_539">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">539</span>
+						<span class="pokelist_pokename"><a href="#539">Karaclée</a></span>
+					</li>
+					
+					<li id="num_540">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">540</span>
+						<span class="pokelist_pokename"><a href="#540">Larveyette</a></span>
+					</li>
+					
+					<li id="num_541">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">541</span>
+						<span class="pokelist_pokename"><a href="#541">Couverdure</a></span>
+					</li>
+					
+					<li id="num_542">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">542</span>
+						<span class="pokelist_pokename"><a href="#542">Manternel</a></span>
+					</li>
+					
+					<li id="num_543">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">543</span>
+						<span class="pokelist_pokename"><a href="#543">Venipatte</a></span>
+					</li>
+					
+					<li id="num_544">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">544</span>
+						<span class="pokelist_pokename"><a href="#544">Scobolide</a></span>
+					</li>
+					
+					<li id="num_545">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">545</span>
+						<span class="pokelist_pokename"><a href="#545">Brutapode</a></span>
+					</li>
+					
+					<li id="num_546">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">546</span>
+						<span class="pokelist_pokename"><a href="#546">Doudouvet</a></span>
+					</li>
+					
+					<li id="num_547">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">547</span>
+						<span class="pokelist_pokename"><a href="#547">Farfaduvet</a></span>
+					</li>
+					
+					<li id="num_548">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">548</span>
+						<span class="pokelist_pokename"><a href="#548">Chlorobule</a></span>
+					</li>
+					
+					<li id="num_549">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">549</span>
+						<span class="pokelist_pokename"><a href="#549">Fragilady</a></span>
+					</li>
+					
+					<li id="num_550">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">550</span>
+						<span class="pokelist_pokename"><a href="#550">Bargantua</a></span>
+					</li>
+					
+					<li id="num_551">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">551</span>
+						<span class="pokelist_pokename"><a href="#551">Mascaïman</a></span>
+					</li>
+					
+					<li id="num_552">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">552</span>
+						<span class="pokelist_pokename"><a href="#552">Escroco</a></span>
+					</li>
+					
+					<li id="num_553">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">553</span>
+						<span class="pokelist_pokename"><a href="#553">Crocorible</a></span>
+					</li>
+					
+					<li id="num_554">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">554</span>
+						<span class="pokelist_pokename"><a href="#554">Darumarond</a></span>
+					</li>
+					
+					<li id="num_555">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">555</span>
+						<span class="pokelist_pokename"><a href="#555">Darumacho</a></span>
+					</li>
+					
+					<li id="num_556">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">556</span>
+						<span class="pokelist_pokename"><a href="#556">Maracachi</a></span>
+					</li>
+					
+					<li id="num_557">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">557</span>
+						<span class="pokelist_pokename"><a href="#557">Crabicoque</a></span>
+					</li>
+					
+					<li id="num_558">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">558</span>
+						<span class="pokelist_pokename"><a href="#558">Crabaraque</a></span>
+					</li>
+					
+					<li id="num_559">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">559</span>
+						<span class="pokelist_pokename"><a href="#559">Baggiguane</a></span>
+					</li>
+					
+					<li id="num_560">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">560</span>
+						<span class="pokelist_pokename"><a href="#560">Baggaïd</a></span>
+					</li>
+					
+					<li id="num_561">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">561</span>
+						<span class="pokelist_pokename"><a href="#561">Cryptéro</a></span>
+					</li>
+					
+					<li id="num_562">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">562</span>
+						<span class="pokelist_pokename"><a href="#562">Tutafeh</a></span>
+					</li>
+					
+					<li id="num_563">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">563</span>
+						<span class="pokelist_pokename"><a href="#563">Tutankafer</a></span>
+					</li>
+					
+					<li id="num_564">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">564</span>
+						<span class="pokelist_pokename"><a href="#564">Carapagos</a></span>
+					</li>
+					
+					<li id="num_565">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">565</span>
+						<span class="pokelist_pokename"><a href="#565">Mégapagos</a></span>
+					</li>
+					
+					<li id="num_566">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">566</span>
+						<span class="pokelist_pokename"><a href="#566">Arkéapti</a></span>
+					</li>
+					
+					<li id="num_567">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">567</span>
+						<span class="pokelist_pokename"><a href="#567">Aéroptéryx</a></span>
+					</li>
+					
+					<li id="num_568">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">568</span>
+						<span class="pokelist_pokename"><a href="#568">Miamiasme</a></span>
+					</li>
+					
+					<li id="num_569">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">569</span>
+						<span class="pokelist_pokename"><a href="#569">Miasmax</a></span>
+					</li>
+					
+					<li id="num_570">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">570</span>
+						<span class="pokelist_pokename"><a href="#570">Zorua</a></span>
+					</li>
+					
+					<li id="num_571">
+						<span class="pokelist_pokeball" catch>&nbsp;</span>
+						<span class="pokelist_pokenum">571</span>
+						<span class="pokelist_pokename"><a href="#571">Zoroark</a></span>
+					</li>
+					
+					<li id="num_572">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">572</span>
+						<span class="pokelist_pokename"><a href="#572">Chinchidou</a></span>
+					</li>
+					
+					<li id="num_573">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">573</span>
+						<span class="pokelist_pokename"><a href="#573">Pashmilla</a></span>
+					</li>
+					
+					<li id="num_574">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">574</span>
+						<span class="pokelist_pokename"><a href="#574">Scrutella</a></span>
+					</li>
+					
+					<li id="num_575">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">575</span>
+						<span class="pokelist_pokename"><a href="#575">Mesmérella</a></span>
+					</li>
+					
+					<li id="num_576">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">576</span>
+						<span class="pokelist_pokename"><a href="#576">Sidérella</a></span>
+					</li>
+					
+					<li id="num_577">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">577</span>
+						<span class="pokelist_pokename"><a href="#577">Nucléos</a></span>
+					</li>
+					
+					<li id="num_578">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">578</span>
+						<span class="pokelist_pokename"><a href="#578">Méios</a></span>
+					</li>
+					
+					<li id="num_579">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">579</span>
+						<span class="pokelist_pokename"><a href="#579">Symbios</a></span>
+					</li>
+					
+					<li id="num_580">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">580</span>
+						<span class="pokelist_pokename"><a href="#580">Couaneton</a></span>
+					</li>
+					
+					<li id="num_581">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">581</span>
+						<span class="pokelist_pokename"><a href="#581">Lakmécygne</a></span>
+					</li>
+					
+					<li id="num_582">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">582</span>
+						<span class="pokelist_pokename"><a href="#582">Sorbébé</a></span>
+					</li>
+					
+					<li id="num_583">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">583</span>
+						<span class="pokelist_pokename"><a href="#583">Sorboul</a></span>
+					</li>
+					
+					<li id="num_584">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">584</span>
+						<span class="pokelist_pokename"><a href="#584">Sorbouboul</a></span>
+					</li>
+					
+					<li id="num_585">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">585</span>
+						<span class="pokelist_pokename"><a href="#585">Vivaldaim</a></span>
+					</li>
+
+					<li id="num_586">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">586</span>
+						<span class="pokelist_pokename"><a href="#586">Haydaim</a></span>
+					</li>
+					
+					<li id="num_587">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">587</span>
+						<span class="pokelist_pokename"><a href="#587">Emolga</a></span>
+					</li>
+					
+					<li id="num_588">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">588</span>
+						<span class="pokelist_pokename"><a href="#588">Carabing</a></span>
+					</li>
+					
+					<li id="num_589">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">589</span>
+						<span class="pokelist_pokename"><a href="#589">Lançargot</a></span>
+					</li>
+					
+					<li id="num_590">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">590</span>
+						<span class="pokelist_pokename"><a href="#590">Trompignon</a></span>
+					</li>
+					
+					<li id="num_591">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">591</span>
+						<span class="pokelist_pokename"><a href="#591">Gaulet</a></span>
+					</li>
+					
+					<li id="num_592">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">592</span>
+						<span class="pokelist_pokename"><a href="#592">Viskuse</a></span>
+					</li>
+					
+					<li id="num_593">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">593</span>
+						<span class="pokelist_pokename"><a href="#593">Moyade</a></span>
+					</li>
+					
+					<li id="num_594">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">594</span>
+						<span class="pokelist_pokename"><a href="#594">Mamanbo</a></span>
+					</li>
+					
+					<li id="num_595">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">595</span>
+						<span class="pokelist_pokename"><a href="#595">Statitik</a></span>
+					</li>
+					
+					<li id="num_596">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">596</span>
+						<span class="pokelist_pokename"><a href="#596">Mygavolt</a></span>
+					</li>
+					
+					<li id="num_597">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">597</span>
+						<span class="pokelist_pokename"><a href="#597">Grindur</a></span>
+					</li>
+					
+					<li id="num_598">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">598</span>
+						<span class="pokelist_pokename"><a href="#598">Noacier</a></span>
+					</li>
+					
+					<li id="num_599">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">599</span>
+						<span class="pokelist_pokename"><a href="#599">Tic</a></span>
+					</li>
+					
+					<li id="num_600">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">600</span>
+						<span class="pokelist_pokename"><a href="#600">Clic</a></span>
+					</li>
+					
+					<li id="num_601">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">601</span>
+						<span class="pokelist_pokename"><a href="#601">Cliticlic</a></span>
+					</li>
+					
+					<li id="num_602">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">602</span>
+						<span class="pokelist_pokename"><a href="#602">Anchwatt</a></span>
+					</li>
+					
+					<li id="num_603">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">603</span>
+						<span class="pokelist_pokename"><a href="#603">Lampéroie</a></span>
+					</li>
+					
+					<li id="num_604">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">604</span>
+						<span class="pokelist_pokename"><a href="#604">Ohmassacre</a></span>
+					</li>
+					
+					<li id="num_605">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">605</span>
+						<span class="pokelist_pokename"><a href="#605">Lewsor</a></span>
+					</li>
+					
+					<li id="num_606">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">606</span>
+						<span class="pokelist_pokename"><a href="#606">Neitram</a></span>
+					</li>
+					
+					<li id="num_607">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">607</span>
+						<span class="pokelist_pokename"><a href="#607">Funécire</a></span>
+					</li>
+					
+					<li id="num_608">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">608</span>
+						<span class="pokelist_pokename"><a href="#608">Mélancolux</a></span>
+					</li>
+					
+					<li id="num_609">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">609</span>
+						<span class="pokelist_pokename"><a href="#609">Lugulabre</a></span>
+					</li>
+					
+					<li id="num_610">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">610</span>
+						<span class="pokelist_pokename"><a href="#610">Coupenotte</a></span>
+					</li>
+					
+					<li id="num_611">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">611</span>
+						<span class="pokelist_pokename"><a href="#611">Incisache</a></span>
+					</li>
+					
+					<li id="num_612">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">612</span>
+						<span class="pokelist_pokename"><a href="#612">Tranchodon</a></span>
+					</li>
+					
+					<li id="num_613">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">613</span>
+						<span class="pokelist_pokename"><a href="#613">Polarhume</a></span>
+					</li>
+					
+					<li id="num_614">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">614</span>
+						<span class="pokelist_pokename"><a href="#614">Polagriffe</a></span>
+					</li>
+					
+					<li id="num_615">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">615</span>
+						<span class="pokelist_pokename"><a href="#615">Hexagel</a></span>
+					</li>
+					
+					<li id="num_616">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">616</span>
+						<span class="pokelist_pokename"><a href="#616">Escargaume</a></span>
+					</li>
+					
+					<li id="num_617">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">617</span>
+						<span class="pokelist_pokename"><a href="#617">Limaspeed</a></span>
+					</li>
+					
+					<li id="num_618">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">618</span>
+						<span class="pokelist_pokename"><a href="#618">Limonde</a></span>
+					</li>
+					
+					<li id="num_619">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">619</span>
+						<span class="pokelist_pokename"><a href="#619">Kungfouine</a></span>
+					</li>
+					
+					<li id="num_620">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">620</span>
+						<span class="pokelist_pokename"><a href="#620">Shaofouine</a></span>
+					</li>
+					
+					<li id="num_621">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">621</span>
+						<span class="pokelist_pokename"><a href="#621">Drakkarmin</a></span>
+					</li>
+					
+					<li id="num_622">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">622</span>
+						<span class="pokelist_pokename"><a href="#622">Gringolem</a></span>
+					</li>
+					
+					<li id="num_623">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">623</span>
+						<span class="pokelist_pokename"><a href="#623">Golemastoc</a></span>
+					</li>
+					
+					<li id="num_624">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">624</span>
+						<span class="pokelist_pokename"><a href="#624">Scalpion</a></span>
+					</li>
+					
+					<li id="num_625">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">625</span>
+						<span class="pokelist_pokename"><a href="#625">Scalproie</a></span>
+					</li>
+					
+					<li id="num_626">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">626</span>
+						<span class="pokelist_pokename"><a href="#626">Frison</a></span>
+					</li>
+					
+					<li id="num_627">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">627</span>
+						<span class="pokelist_pokename"><a href="#627">Furaiglon</a></span>
+					</li>
+					
+					<li id="num_628">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">628</span>
+						<span class="pokelist_pokename"><a href="#628">Gueriaigle</a></span>
+					</li>
+					
+					<li id="num_629">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">629</span>
+						<span class="pokelist_pokename"><a href="#629">Vostourno</a></span>
+					</li>
+					
+					<li id="num_630">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">630</span>
+						<span class="pokelist_pokename"><a href="#630">Vaututrice</a></span>
+					</li>
+					
+					<li id="num_631">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">631</span>
+						<span class="pokelist_pokename"><a href="#631">Aflamanoir</a></span>
+					</li>
+					
+					<li id="num_632">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">632</span>
+						<span class="pokelist_pokename"><a href="#632">Fermite</a></span>
+					</li>
+					
+					<li id="num_633">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">633</span>
+						<span class="pokelist_pokename"><a href="#633">Solochi</a></span>
+					</li>
+					
+					<li id="num_634">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">634</span>
+						<span class="pokelist_pokename"><a href="#634">Diamat</a></span>
+					</li>
+					
+					<li id="num_635">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">635</span>
+						<span class="pokelist_pokename"><a href="#635">Trioxhydre</a></span>
+					</li>
+					
+					<li id="num_636">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">636</span>
+						<span class="pokelist_pokename"><a href="#636">Pyronille</a></span>
+					</li>
+					
+					<li id="num_637">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">637</span>
+						<span class="pokelist_pokename"><a href="#637">Pyrax</a></span>
+					</li>
+					
+					<li id="num_638">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">638</span>
+						<span class="pokelist_pokename"><a href="#638">Cobaltium</a></span>
+					</li>
+					
+					<li id="num_639">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">639</span>
+						<span class="pokelist_pokename"><a href="#639">Terrakium</a></span>
+					</li>
+					
+					<li id="num_640">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">640</span>
+						<span class="pokelist_pokename"><a href="#640">Viridium</a></span>
+					</li>
+					
+					<li id="num_641">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">641</span>
+						<span class="pokelist_pokename"><a href="#641">Boréas</a></span>
+					</li>
+					
+					<li id="num_642">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">642</span>
+						<span class="pokelist_pokename"><a href="#642">Fulguris</a></span>
+					</li>
+					
+					<li id="num_643">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">643</span>
+						<span class="pokelist_pokename"><a href="#643">Reshiram</a></span>
+					</li>
+					
+					<li id="num_644">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">644</span>
+						<span class="pokelist_pokename"><a href="#644">Zekrom</a></span>
+					</li>
+					
+					<li id="num_645">
+						<span class="pokelist_pokeball catch">&nbsp;</span>
+						<span class="pokelist_pokenum">645</span>
+						<span class="pokelist_pokename"><a href="#645">Démétéros</a></span>
+					</li>
+					
+					<li id="num_646">
+						<span class="pokelist_pokeball">&nbsp;</span>
+						<span class="pokelist_pokenum">646</span>
+						<span class="pokelist_pokename"><a href="#646">Kyurem</a></span>
+					</li>
+				</ul>
+				<div id="panel-search">
+					<div id="filter1" class="filter"> Total PKMN : <span id="totalcount"></span></div>
+					<div id="filter2" class="filter"> PKMN capturés : <span id="totalcatch"></span></div>
+				</div>
+			</div>
+			
+			<div id="pokedesc">
+				<ul id="tabs">
+					<li id="tab1" class="active">Information</li>
+					<li id="tab2">Evolution</li>
+					<li id="tab3">Advanced</li>
+				</ul>
+				<div id="poketab1" class="poketab">
+					<div id="block1" class="block" >
+						<x3d id="x3d" xmlns="http://www.web3d.org/specifications/x3d-namespace" showStat="false" showLog="false" altImg="" width="100%" height="100%" >
+							<scene>
+							<Transform DEF="Camera_TRANSFORM"
+									   translation="0 0 0"
+									   scale="1.000000 1.000000 1.000000"
+									   rotation="0 0 0 0"
+									   >
+								<Viewpoint DEF="CA_Camera"
+										   centerOfRotation="0 0 0"
+										   position="0.00 10.00 20.00"
+										   orientation="-0.00 0.00 0.00 0.00"
+										   fieldOfView="1.000"
+										   />
+							</Transform>
+							</scene>
+						</x3d>
+						<canvas id="x3dom-logo" style="display:none"></canvas>
+					</div>
+					<div id="block2" class="block">
+						<div id="pokename" class="line">
+							<span class="title">#00</span> 
+							<span class="level">&nbsp;</span>
+						</div>
+						<div id="poketext">
+							
+						</div>
+						
+					</div>
+					<div id="block3" class="block">
+						<div id="pokeHP" class="line">
+							<span class="title">HP</span>
+							<span class="level">
+								<span class="levelbar">&nbsp;</span>
+							</span>
+						</div>
+						<div id="pokeATK" class="line">
+							<span class="title">Attack</span>
+							<span class="level">
+								<span class="levelbar">&nbsp;</span>
+							</span>
+						</div>
+						<div id="pokeDEF" class="line">
+							<span class="title">Defense</span>
+							<span class="level">
+								<span class="levelbar">&nbsp;</span>
+							</span>
+						</div>
+						<div id="pokeATKSPE" class="line">
+							<span class="title">Special ATK</span>
+							<span class="level">
+								<span class="levelbar">&nbsp;</span>
+							</span>
+						</div>
+						<div id="pokeDEFSPE" class="line">
+							<span class="title">Special DEF</span>
+							<span class="level">
+								<span class="levelbar">&nbsp;</span>
+							</span>
+						</div>
+						<div id="pokeVIT" class="line">
+							<span class="title">Speed</span>
+							<span class="level">
+								<span class="levelbar">&nbsp;</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				
+				<div id="poketab2" class="poketab">
+				</div>
+				
+				<div id="poketab3" class="poketab">
+          <table id="pokemoves">
+            
+          </table>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="pokefooter">
+			<div id="links"><a href="#" class="link">Contact</a> | <a href="#" class="link">Donation</a> | <a href="#" class="link">Resource</a></div>
+			<div id="copyright">© 2012 Pokémon. © 1995–2012 Nintendo/Creatures Inc./GAME FREAK Inc. Pokémon, les noms des personnages Pokémon sont des marques commerciales de Nintendo. Les autres marques commerciales appartiennent à leurs propriétaires respectifs.</div>
+		</div>
+	</div>
+</body>
+</html>

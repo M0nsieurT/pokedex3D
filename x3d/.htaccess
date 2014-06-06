@@ -1,0 +1,3 @@
+# Pour faire parser les fichiers ".php" par PHP5
+AddType application/x-httpd-php5 .php
+
