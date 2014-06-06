@@ -1,3 +1,6 @@
+Pokedex3D
+=========
+
 This software is copyrighted and licensed under the MIT license.
 
 This software comes bundled with data, sprites, and sounds extracted from the
