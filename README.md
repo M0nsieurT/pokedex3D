@@ -1,6 +1,3 @@
-Pokedex3D
-=========
-
 This software is copyrighted and licensed under the MIT license.
 
 This software comes bundled with data, sprites, and sounds extracted from the
@@ -12,4 +9,11 @@ intellectual property for a fan reference is covered by fair use and that the
 software is significantly impaired without said property included.  Any use of
 this copyrighted property is at your own legal risk.
 
+
+## Install
+1. import SQL file from your database (pokedex.full.sql if your MySQL client accept heavy files else import pokedex.part*.sql file by file
+2. change stats/index.php file to link your database
+
+
+## Example
 You can see the project on my website http://julientissier.fr/pokedex3D
